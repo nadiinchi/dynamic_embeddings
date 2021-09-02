@@ -17,7 +17,7 @@ The experiments were conducted on the [Python150k](https://www.sri.inf.ethz.ch/p
 The experiments were run on a system with Linux 3.10.0 using Tesla V100 GPU. The implementation is based on PyTorch>=1.5.
 
 Running experiments:
-1. Download and resplit data, see [this instruction](https://github.com/bayesgroup/code_transformers/tree/main/data_utils for details;
+1. Download and resplit data, see [this instruction](https://github.com/bayesgroup/code_transformers/tree/main/data_utils) for details;
 2. Preprocess data for a task you are interested in, see `code_completion` or `var_misuse` for details;
 3. Run the experiment you are interested in, see `code_completion` or `var_misuse` for details.
 
